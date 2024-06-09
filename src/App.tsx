@@ -1,8 +1,15 @@
+import { Fragment } from "react"
+import { About, Contact, Header, Projects, Services } from "./components"
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <Fragment>
+      <Header/>
+      <About/>
+      <Projects/>
+      <Services/>
+      <Contact/>
+    </Fragment>
   )
 }
 export default App
